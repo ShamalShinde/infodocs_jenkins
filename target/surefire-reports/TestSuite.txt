@@ -1,0 +1,127 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 223.678 s <<< FAILURE! - in TestSuite
+com.cases.AccessControlTestCases.Module01Test.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 0.738 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='confirm']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [51a37edb-d196-4a38-b319-0cb6df6ce72a, findElement {using=xpath, value=//button[@class='confirm']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:12338, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11712, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:12338/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51a37edb-d196-4a38-b319-0cb6df6ce72a
+	at com.cases.AccessControlTestCases.Module01Test.basePageNavigation(Module01Test.java:35)
+
+com.cases.AccessControlTestCases.Module02Test.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 9.519 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='dropdown-toggle']//i[@class='ti-settings']' (tried for 5 second(s) with 500 milliseconds interval)
+	at com.cases.AccessControlTestCases.Module02Test.basePageNavigation(Module02Test.java:49)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //a[@class='dropdown-toggle']//i[@class='ti-settings']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a937fd70-ec87-4cf0-940c-a8dd248da10a, findElement {using=xpath, value=//a[@class='dropdown-toggle']//i[@class='ti-settings']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:28809, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16976, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:28809/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a937fd70-ec87-4cf0-940c-a8dd248da10a
+	at com.cases.AccessControlTestCases.Module02Test.basePageNavigation(Module02Test.java:49)
+
+com.cases.AccessControlTestCases.Module03Test.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 11.474 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='selenium']' (tried for 10 second(s) with 500 milliseconds interval)
+	at com.cases.AccessControlTestCases.Module03Test.basePageNavigation(Module03Test.java:48)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //span[normalize-space()='selenium']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [32e67094-c548-4ddd-ba0d-3ad23474227b, findElement {using=xpath, value=//span[normalize-space()='selenium']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:48667, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18920, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:48667/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32e67094-c548-4ddd-ba0d-3ad23474227b
+	at com.cases.AccessControlTestCases.Module03Test.basePageNavigation(Module03Test.java:48)
+
+com.cases.AccessControlTestCases.Module04Test.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 11.25 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fc527179-4103-4fdf-933c-d8c55a9b82b0, findElement {using=class name, value=fix-loader}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:3386, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13876, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:3386/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fc527179-4103-4fdf-933c-d8c55a9b82b0
+	at com.cases.AccessControlTestCases.Module04Test.basePageNavigation(Module04Test.java:52)
+
+com.cases.DMSDocumentShareOnMailTestCase.DmsDocMailTest.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 6.624 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a38034ad-0688-41a3-ad76-7f1eb7a78b63, findElement {using=xpath, value=//span[normalize-space()='T1']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:18698, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20560, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:18698/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a38034ad-0688-41a3-ad76-7f1eb7a78b63
+	at com.cases.DMSDocumentShareOnMailTestCase.DmsDocMailTest.basePageNavigation(DmsDocMailTest.java:51)
+
+com.cases.DMSFeatureDocumentViewTestCase.DmsViewDocTest.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 8.849 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2c3885da-85c8-44d1-9c57-bb673401956b, findElement {using=class name, value=fix-loader}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:20619, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19668, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20619/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c3885da-85c8-44d1-9c57-bb673401956b
+	at com.cases.DMSFeatureDocumentViewTestCase.DmsViewDocTest.basePageNavigation(DmsViewDocTest.java:53)
+
+com.cases.DMSFeatureDownloadingDocumentTestCase.Demo22Test.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 6.421 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='Patient']' (tried for 5 second(s) with 500 milliseconds interval)
+	at com.cases.DMSFeatureDownloadingDocumentTestCase.Demo22Test.basePageNavigation(Demo22Test.java:49)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //span[normalize-space()='Patient']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4dba1086-3527-447a-9974-6df4d5546226, findElement {using=xpath, value=//span[normalize-space()='Patient']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:34738, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21560, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:34738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4dba1086-3527-447a-9974-6df4d5546226
+	at com.cases.DMSFeatureDownloadingDocumentTestCase.Demo22Test.basePageNavigation(Demo22Test.java:49)
+
+com.cases.DMSFeatureDownloadingDocumentTestCase.DmsDownloadDocTest.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 31.479 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='T1']' (tried for 5 second(s) with 500 milliseconds interval)
+	at com.cases.DMSFeatureDownloadingDocumentTestCase.DmsDownloadDocTest.basePageNavigation(DmsDownloadDocTest.java:49)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //span[normalize-space()='T1']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [923f740f-ebe6-4a95-bf6e-0cdda027307f, findElement {using=xpath, value=//span[normalize-space()='T1']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:29962, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17588, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:29962/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 923f740f-ebe6-4a95-bf6e-0cdda027307f
+	at com.cases.DMSFeatureDownloadingDocumentTestCase.DmsDownloadDocTest.basePageNavigation(DmsDownloadDocTest.java:49)
+
+com.cases.DMSFeatureDeleteDocumentTestCase.DmsDeleteDocTest.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 82.136 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6117d4c3-96f7-4353-b6cb-32dcfd08c354, findElement {using=xpath, value=//span[normalize-space()='T1']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:28429, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25772, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:28429/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6117d4c3-96f7-4353-b6cb-32dcfd08c354
+	at com.cases.DMSFeatureDeleteDocumentTestCase.DmsDeleteDocTest.basePageNavigation(DmsDeleteDocTest.java:50)
+
+com.cases.HomePageTestCase.HomePageTest.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 3.281 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2c796b96-e4f1-4a30-90db-77432a265d75, findElement {using=class name, value=fix-loader}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.1, moz:accessibilityChecks: false, moz:buildID: 20230706202047, moz:debuggerAddress: 127.0.0.1:40398, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19788, moz:profile: C:\Users\SHAMAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:40398/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c796b96-e4f1-4a30-90db-77432a265d75
+	at com.cases.HomePageTestCase.HomePageTest.basePageNavigation(HomePageTest.java:49)
+

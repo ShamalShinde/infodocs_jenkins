@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.listeners.Listeners" />
+	</listeners>
+
+	<!--   <test thread-count="5"  name="Testng" time-out="90000">
+		<classes>
+			<class name="com.cases.dmsdocumentupload.DMSFeatureDocumentUpload" />
+			
+		</classes>
+	</test>	
+	<test thread-count="5"  name="Testng13" time-out="60000">
+		<classes>
+			<class name="com.cases.documentsharingdms.DocumentSharingDMS" />
+		</classes>
+	</test>		
+			<test thread-count="5"  name="Testng1" time-out="30000">
+		<classes>
+			<class name="com.cases.userProfile.UserProfileFunctionality" />
+			
+		</classes>
+	</test>	
+	
+	<test thread-count="5"  name="Testng2" time-out="30000">
+		<classes>
+					<class name="com.cases.userProfile.EditAccountFunctionality_test" />	
+		</classes>
+	</test>
+	
+	<test thread-count="5"  name="Testng3" time-out="60000">
+		<classes>
+				<class name="com.cases.userProfile.ChangePassword" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5"  name="Testng4" time-out="30000">
+		<classes>
+		<class name="com.cases.userProfile.ForgotPassword_test" />
+		</classes>
+	</test>	
+
+	<test thread-count="5"  name="Testng5" time-out="60000">
+		<classes>
+			<class name="com.cases.userpreference.AddingFileFavoriteFunctionality" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5"  name="Testng6" time-out="30000">
+		<classes>
+			<class name="com.cases.userpreference.MyWorkspaceFunctionality" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5"  name="Testng7" time-out="90000">
+		<classes>
+			<class name="com.cases.userpreference.OutboxFunctionality" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5"  name="Testng8" time-out="30000">
+		<classes>
+				<class name="com.cases.userpreference.RefreshIconFunctionality" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5"  name="Testng9" time-out="30000">
+		<classes>
+			<class name="com.cases.userpreference.MyRecentFilesFunctionality" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5"  name="Testng10" time-out="30000">
+		<classes>
+			<class name="com.cases.userpreference.UserPreferenceFunctionality" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5"  name="Testng11" time-out="30000">
+		<classes>
+				<class name="com.cases.userpreference.ViewingFavoriteListFunctionality" />
+		</classes>
+	</test>	
+	
+	  <test thread-count="5"  name="Testng12" time-out="90000">
+		<classes>
+			<class name="com.cases.userpreference.RemoveFileFavoriteListFunctionality" />
+		</classes>
+	</test>	
+	-->
+	  <test thread-count="5"  name="Testng13" time-out="90000">
+		<classes>
+			<class name="com.cases.AccessControlTestCases.Module01Test" />
+		</classes>
+	</test>
+	  <test thread-count="5"  name="Testng14" time-out="90000">
+		<classes>
+			<class name="com.cases.AccessControlTestCases.Module02Test" />
+		</classes>
+	</test>
+	  <test thread-count="5"  name="Testng15" time-out="90000">
+		<classes>
+			<class name="com.cases.AccessControlTestCases.Module03Test" />
+		</classes>
+	</test>
+	  <test thread-count="5"  name="Testng16" time-out="90000">
+		<classes>
+			<class name="com.cases.AccessControlTestCases.Module04Test" />
+		</classes>
+	</test>
+	  <test thread-count="5"  name="Testng17" time-out="90000">
+		<classes>
+			<class name="com.cases.DMSDocumentShareOnMailTestCase.DmsDocMailTest" />
+		</classes>
+	</test>
+	
+	 <test thread-count="5"  name="Testng18" time-out="90000">
+		<classes>
+			<class name="com.cases.DMSFeatureDocumentViewTestCase.DmsViewDocTest" />
+		</classes>
+	</test>
+	 <test thread-count="5"  name="Testng19" time-out="90000">
+		<classes>
+			<class name="com.cases.DMSFeatureDownloadingDocumentTestCase.Demo22Test" />
+		</classes>
+	</test>
+	  <test thread-count="5"  name="Testng20" time-out="90000">
+		<classes>
+			<class name="com.cases.DMSFeatureDownloadingDocumentTestCase.DmsDownloadDocTest" />
+		</classes>
+	</test>
+	  <test thread-count="5"  name="Testng21" time-out="90000">
+		<classes>
+			<class name="com.cases.DMSFeatureDeleteDocumentTestCase.DmsDeleteDocTest" />
+		</classes>
+	</test>
+	  <test thread-count="5"  name="Testng22" time-out="90000">
+		<classes>
+			<class name="com.cases.HomePageTestCase.HomePageTest" />
+		</classes>
+	</test>
+	 
+		
+	
+
+</suite> 

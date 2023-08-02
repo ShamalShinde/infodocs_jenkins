@@ -1,0 +1,10 @@
+2023-07-12 10:40:44 [main] INFO  com.cases.AccessControlTestCases.Module01Test - Succesfully opened the browser
+2023-07-12 10:40:53 [main] INFO  com.cases.AccessControlTestCases.Module02Test - Succesfully opened the browser
+2023-07-12 10:41:07 [main] INFO  com.cases.AccessControlTestCases.Module03Test - Successfully opened the browser
+2023-07-12 10:41:23 [main] INFO  com.cases.AccessControlTestCases.Module04Test - Succesfully opened the browser
+2023-07-12 10:41:38 [main] INFO  com.pageObjects.DMSFeatureDocumentview.DmsViewDoc - Succesfully opened the browser
+2023-07-12 10:41:49 [main] INFO  com.pageObjects.DMSFeatureDocumentview.DmsViewDoc - Succesfully opened the browser
+2023-07-12 10:42:02 [main] INFO  com.pageObjects.DMSFeatureDownloadingDocument.Demo22 - Succesfully opened the browser
+2023-07-12 10:42:13 [main] INFO  com.pageObjects.DMSFeatureDownloadingDocument.DmsDownlaodDoc - Succesfully opened the browser
+2023-07-12 10:42:49 [main] INFO  com.pageObjects.DMSFeatureDownloadingDocument.DmsDownlaodDoc - Succesfully opened the browser
+2023-07-12 10:44:15 [main] INFO  com.pageObjects.HomePage.HomePage - Succesfully opened the browser

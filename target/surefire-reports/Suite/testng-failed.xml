@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.listeners.Listeners"/>
+  </listeners>
+  <test name="Testng13(failed)">
+    <classes>
+      <class name="com.cases.AccessControlTestCases.Module01Test">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.cases.AccessControlTestCases.Module01Test -->
+    </classes>
+  </test> <!-- Testng13(failed) -->
+  <test name="Testng14(failed)">
+    <classes>
+      <class name="com.cases.AccessControlTestCases.Module02Test">
+        <methods>
+          <include name="intialize"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cases.AccessControlTestCases.Module02Test -->
+    </classes>
+  </test> <!-- Testng14(failed) -->
+  <test name="Testng15(failed)">
+    <classes>
+      <class name="com.cases.AccessControlTestCases.Module03Test">
+        <methods>
+          <include name="intialize"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cases.AccessControlTestCases.Module03Test -->
+    </classes>
+  </test> <!-- Testng15(failed) -->
+  <test name="Testng16(failed)">
+    <classes>
+      <class name="com.cases.AccessControlTestCases.Module04Test">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.cases.AccessControlTestCases.Module04Test -->
+    </classes>
+  </test> <!-- Testng16(failed) -->
+  <test name="Testng17(failed)">
+    <classes>
+      <class name="com.cases.DMSDocumentShareOnMailTestCase.DmsDocMailTest">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.cases.DMSDocumentShareOnMailTestCase.DmsDocMailTest -->
+    </classes>
+  </test> <!-- Testng17(failed) -->
+  <test name="Testng18(failed)">
+    <classes>
+      <class name="com.cases.DMSFeatureDocumentViewTestCase.DmsViewDocTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cases.DMSFeatureDocumentViewTestCase.DmsViewDocTest -->
+    </classes>
+  </test> <!-- Testng18(failed) -->
+  <test name="Testng19(failed)">
+    <classes>
+      <class name="com.cases.DMSFeatureDownloadingDocumentTestCase.Demo22Test">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.cases.DMSFeatureDownloadingDocumentTestCase.Demo22Test -->
+    </classes>
+  </test> <!-- Testng19(failed) -->
+  <test name="Testng20(failed)">
+    <classes>
+      <class name="com.cases.DMSFeatureDownloadingDocumentTestCase.DmsDownloadDocTest">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.cases.DMSFeatureDownloadingDocumentTestCase.DmsDownloadDocTest -->
+    </classes>
+  </test> <!-- Testng20(failed) -->
+  <test name="Testng21(failed)">
+    <classes>
+      <class name="com.cases.DMSFeatureDeleteDocumentTestCase.DmsDeleteDocTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cases.DMSFeatureDeleteDocumentTestCase.DmsDeleteDocTest -->
+    </classes>
+  </test> <!-- Testng21(failed) -->
+  <test name="Testng22(failed)">
+    <classes>
+      <class name="com.cases.HomePageTestCase.HomePageTest">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.cases.HomePageTestCase.HomePageTest -->
+    </classes>
+  </test> <!-- Testng22(failed) -->
+</suite> <!-- Failed suite [Suite] -->
